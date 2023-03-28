@@ -166,7 +166,7 @@ h1 {
 }
 
 header {
-    background: #136c72;
+    background: rgb(255, 91, 0);
     padding: 1em 0;
     text-align: center;
 }
@@ -275,11 +275,12 @@ header {
 
 .logo {
     height: 30px;
+    
 }
 
 .hero {
     padding: 100px 0;
-    background-color: #23424a;
+    background-color: #234a30;
     color: #fff;
 }
 

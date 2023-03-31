@@ -134,12 +134,23 @@ img {
   max-width: 100%;
 }
 
+.youth-title {
+  color: white;
+  padding: 0;
+  margin: 0;
+}
+
 .wrapper {
   display: grid;
   grid-template-columns: 1fr 5fr;
   grid-gap: 10px;
   overflow: hidden;
   height: 100vh;
+}
+
+.images-section {
+  background-color: rgb(248, 196, 150);
+  display: flex;
 }
 
 .gallery {
@@ -315,6 +326,22 @@ header {
   margin-bottom: 3em;
 }
 
+.events h3 {
+  text-align: center;
+}
+
+.p-events {
+  color: rgb(255, 91, 0);
+  text-align: center;
+  margin-bottom: 0px;
+}
+
+.list-event li a {
+  margin-top: 0;
+  color: white;
+  text-decoration: none;
+}
+
 .main {
   margin-top: 3em;
 }
@@ -335,6 +362,59 @@ th {
 
 tr:nth-child(even) {
   background-color: #dddddd;
+}
+
+.volunteer-section .link-btn-volunteer {
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+}
+
+.volunteer-btn {
+  margin: 10px;
+  padding: 15px 30px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  border-radius: 10px;
+  display: block;
+  border: 0px;
+  font-weight: 700;
+  box-shadow: 0px 0px 14px -7px #f09819;
+  background-image: linear-gradient(
+    45deg,
+    #ff512f 0%,
+    #f09819 51%,
+    #ff512f 100%
+  );
+  cursor: pointer;
+  touch-action: manipulation;
+}
+
+.volunteer-btn:hover {
+  background-position: right center;
+  /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+}
+
+.volunteer-btn:active {
+  transform: scale(0.95);
+}
+
+.footer {
+  text-align: center;
+  background-color: #234a30;
+  color: white;
+  padding-bottom: 0.5em;
+}
+
+.sponsor-footer {
+  display: flex;
+  padding: 1em;
+  margin: 2em;
 }
 
 @media (min-width: 800px) {
@@ -379,6 +459,7 @@ tr:nth-child(even) {
     margin-bottom: 3em;
   }
 }
+
 .img-logo {
   border-radius: 43%;
 }
